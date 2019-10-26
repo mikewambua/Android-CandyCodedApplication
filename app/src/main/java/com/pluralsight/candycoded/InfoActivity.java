@@ -1,6 +1,8 @@
 package com.pluralsight.candycoded;
 
 import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.content.pm.ResolveInfo;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -29,8 +31,12 @@ public class InfoActivity extends AppCompatActivity {
         txtMap.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent launchMap = new Intent(Intent.ACTION_VIEW,Uri.parse("https://maps.google.com"));
-                startActivity(launchMap);
+                Intent launchMap = new Intent(Intent.ACTION_VIEW,Uri.parse("geo:0,0?q=618 E South St Orlando, FL 32801"));
+                launchMap.setPackage("com.google.android.apps.maps");
+
+                if(launchMap.resolveActivity(getPackageManager()) !=null)
+                    startActivity(launchMap);
+
             }
         });
         
