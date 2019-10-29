@@ -5,6 +5,7 @@
     <item android:id="@+id/share_detail"
         android:title="Share Candy"
         android:icon="@android:drawable/ic_menu_share"
-        app:showAsAction="ifRoom"/>
+        app:showAsAction="ifRoom"
+        android:onClick="shareCandyIntent"/>
 
 </menu>

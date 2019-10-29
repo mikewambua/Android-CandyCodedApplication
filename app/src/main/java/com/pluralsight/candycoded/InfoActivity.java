@@ -23,10 +23,12 @@ public class InfoActivity extends AppCompatActivity {
 
         final Uri uri = Uri.parse("android.resource://com.codeschool.candycoded/" + R.drawable.store_front);
         ImageView candyStoreImageView = (ImageView)findViewById(R.id.image_view_candy_store);
+        candyStoreImageView.setImageResource(R.drawable.store_front);
         Picasso.with(this).
                 load(uri).
                 into(candyStoreImageView);
-        
+
+
         TextView txtMap = (TextView)findViewById(R.id.text_view_address);
         txtMap.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -39,7 +41,8 @@ public class InfoActivity extends AppCompatActivity {
 
             }
         });
-        
+
+
         TextView txtPhone = (TextView)findViewById(R.id.text_view_phone);
         txtPhone.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -49,15 +52,4 @@ public class InfoActivity extends AppCompatActivity {
             }
         });
     }
-    
-
-    // ***
-    // TODO - Task 2 - Launch the Google Maps Activity
-    // ***
-    
-    
-
-    // ***
-    // TODO - Task 3 - Launch the Phone Activity
-    // ***
 }
