@@ -29,20 +29,6 @@ public class InfoActivity extends AppCompatActivity {
                 into(candyStoreImageView);
 
 
-        TextView txtMap = (TextView)findViewById(R.id.text_view_address);
-        txtMap.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent launchMap = new Intent(Intent.ACTION_VIEW,Uri.parse("geo:0,0?q=618 E South St Orlando, FL 32801"));
-                launchMap.setPackage("com.google.android.apps.maps");
-
-                if(launchMap.resolveActivity(getPackageManager()) !=null)
-                    startActivity(launchMap);
-
-            }
-        });
-
-
         TextView txtPhone = (TextView)findViewById(R.id.text_view_phone);
         txtPhone.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -51,5 +37,13 @@ public class InfoActivity extends AppCompatActivity {
                 startActivity(callPhone);
             }
         });
+    }
+    public void createMapIntent(View v){
+        Intent launchMap = new Intent(Intent.ACTION_VIEW,Uri.parse("geo:0,0?q=618 E South St Orlando, FL 32801"));
+        launchMap.setPackage("com.google.android.apps.maps");
+
+        if(launchMap.resolveActivity(getPackageManager()) !=null)
+            startActivity(launchMap);
+
     }
 }

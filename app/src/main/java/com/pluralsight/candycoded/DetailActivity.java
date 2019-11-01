@@ -3,10 +3,13 @@ package com.pluralsight.candycoded;
 import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuInflater;
+import android.view.MenuItem;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -71,4 +74,20 @@ public class DetailActivity extends AppCompatActivity {
     // ***
     // TODO - Task 4 - Share the Current Candy with an Intent
     // ***
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        shareCandyIntent(item);
+        return super.onOptionsItemSelected(item);
+    }
+
+    public void shareCandyIntent(MenuItem item) {
+        Intent shareCandy = new Intent(Intent.ACTION_SEND);
+        shareCandy.setDataAndType(Uri.parse("mCandyImageUrl"),"text/plain");
+        shareCandy.putExtra(Intent.EXTRA_TEXT,SHARE_DESCRIPTION + HASHTAG_CANDYCODED);
+
+        if(shareCandy.resolveActivity(getPackageManager()) !=null)
+            startActivity(shareCandy);
+    }
+
 }
