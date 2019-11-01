@@ -12,8 +12,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c09b4eae-fb03-4a86-91bd-e9dd4a7f1ac6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/candycoded/InfoActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/candycoded/InfoActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_info.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_info.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/candycoded/DetailActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/candycoded/DetailActivity.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,11 +53,11 @@
           <provider editor-type-id="android-designer2" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/pluralsight/candycoded/DetailActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="82">
+              <caret line="88" column="10" selection-start-line="88" selection-start-column="10" selection-end-line="88" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,10 +85,10 @@
           <provider editor-type-id="android-designer2" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/pluralsight/candycoded/InfoActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
+            <state relative-caret-position="337">
               <caret line="40" column="53" selection-start-line="40" selection-start-column="53" selection-end-line="40" selection-end-column="53" />
             </state>
           </provider>
@@ -116,11 +115,11 @@
         <option value="$PROJECT_DIR$/src/test/java/com/pluralsight/candycoded/_4_ShareACandyWithAnIntent.java" />
         <option value="$PROJECT_DIR$/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/pluralsight/candycoded/SettingsActivity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/pluralsight/candycoded/DetailActivity.java" />
         <option value="$PROJECT_DIR$/src/main/res/menu/detail.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/pluralsight/candycoded/MainActivity.java" />
         <option value="$PROJECT_DIR$/src/main/res/layout/activity_info.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/pluralsight/candycoded/InfoActivity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pluralsight/candycoded/DetailActivity.java" />
       </list>
     </option>
   </component>
@@ -176,7 +175,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Android JUnit._3_StartThePhoneActivity">
+  <component name="RunManager" selected="Android JUnit._4_ShareACandyWithAnIntent">
     <configuration name="_1_StartTheStoreInformationActivity" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="app" />
       <extension name="coverage">
@@ -318,9 +317,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Android JUnit._4_ShareACandyWithAnIntent" />
         <item itemvalue="Android JUnit._3_StartThePhoneActivity" />
         <item itemvalue="Android JUnit._2_StartTheGoogleMapsActivity" />
-        <item itemvalue="Android JUnit._4_ShareACandyWithAnIntent" />
         <item itemvalue="Android JUnit._1_StartTheStoreInformationActivity" />
         <item itemvalue="Android JUnit.com.pluralsight.candycoded in app" />
       </list>
@@ -379,25 +378,17 @@
       <option name="project" value="LOCAL" />
       <updated>1572600624332</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Passed test">
+      <created>1572601855792</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1572601855793</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_2_StartTheGoogleMapsActivity - 2019.10.29 at 21h 31m 59s.xml">
-      <configuration name="_2_StartTheGoogleMapsActivity" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="_2_StartTheGoogleMapsActivity - 2019.10.29 at 21h 40m 20s.xml">
-      <configuration name="_2_StartTheGoogleMapsActivity" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="_2_StartTheGoogleMapsActivity - 2019.11.01 at 12h 16m 36s.xml">
-      <configuration name="_2_StartTheGoogleMapsActivity" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="_2_StartTheGoogleMapsActivity - 2019.11.01 at 12h 19m 20s.xml">
-      <configuration name="_2_StartTheGoogleMapsActivity" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="_2_StartTheGoogleMapsActivity - 2019.11.01 at 12h 22m 30s.xml">
-      <configuration name="_2_StartTheGoogleMapsActivity" configurationId="AndroidJUnit" />
-    </history-entry>
     <history-entry file="_2_StartTheGoogleMapsActivity - 2019.11.01 at 12h 29m 07s.xml">
       <configuration name="_2_StartTheGoogleMapsActivity" configurationId="AndroidJUnit" />
     </history-entry>
@@ -413,6 +404,21 @@
     <history-entry file="_3_StartThePhoneActivity - 2019.11.01 at 12h 50m 26s.xml">
       <configuration name="_3_StartThePhoneActivity" configurationId="AndroidJUnit" />
     </history-entry>
+    <history-entry file="_4_ShareACandyWithAnIntent - 2019.11.01 at 12h 53m 06s.xml">
+      <configuration name="_4_ShareACandyWithAnIntent" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="_4_ShareACandyWithAnIntent - 2019.11.01 at 12h 57m 41s.xml">
+      <configuration name="_4_ShareACandyWithAnIntent" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="_4_ShareACandyWithAnIntent - 2019.11.01 at 12h 58m 53s.xml">
+      <configuration name="_4_ShareACandyWithAnIntent" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="_4_ShareACandyWithAnIntent - 2019.11.01 at 13h 00m 20s.xml">
+      <configuration name="_4_ShareACandyWithAnIntent" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="_4_ShareACandyWithAnIntent - 2019.11.01 at 13h 01m 20s.xml">
+      <configuration name="_4_ShareACandyWithAnIntent" configurationId="AndroidJUnit" />
+    </history-entry>
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -424,7 +430,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="20" width="1346" height="688" extended-state="0" />
+    <frame x="10" y="20" width="1346" height="688" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
@@ -639,16 +645,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pluralsight/candycoded/DetailActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_detail.xml">
       <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
@@ -667,8 +663,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/pluralsight/candycoded/InfoActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
+        <state relative-caret-position="337">
           <caret line="40" column="53" selection-start-line="40" selection-start-column="53" selection-end-line="40" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pluralsight/candycoded/DetailActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="88" column="10" selection-start-line="88" selection-start-column="10" selection-end-line="88" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
